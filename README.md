@@ -66,7 +66,7 @@ Confidence Score: 0.9992
 
 
 ## 9.Python Prediction Script
-from keras.models import load_model  # TensorFlow is required for Keras to work
+```from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps      # Install pillow instead of PIL
 import numpy as np
 
@@ -106,4 +106,4 @@ confidence_score = prediction[0][index]
 
 # Output the result
 print("Class:", class_name[2:], end="")
-print("Confidence Score:", confidence_score)
+print("Confidence Score:", confidence_score)```
